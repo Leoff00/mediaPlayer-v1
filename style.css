@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+
+button {
+    text-align: center;
+    font-family: arial;
+    background-color: #1E90FF;
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    border: transparent;
+    transition: 0.5s;
+}
+
+button:hover {
+    font-family: arial;
+    transition: 0.5s;
+    background-color: #87CEFA;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+}
+
+button:active {
+    font-family: arial;
+    transition: 0.5s;
+    background-color: #ADD8E6;
+    border: transparent;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+.progresso {
+    width: 500px;
+    height: 20px;
+    border: solid 1px #000;
+    margin: 20px
+}
+
+.progresso>div {
+    background-color: #808080;
+    color: #FFF;
+    height: 100%;
+    text-align: right;
+    font-size: 14px;
+    width: 0%;
+}
